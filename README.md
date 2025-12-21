@@ -1,6 +1,8 @@
-# sentinel-soc-project
+🏠 Azure HomeLab
 
-This project is a cloud native SOC built using sentinel to demonstrate my understanding of SIEM utilizing Microsoft Sentinel.
+Hi! welcome to my azure environment! In this project I will be creating an azure environment to create a cloud based home lab! 
+
+
 
 This project demonstrate my skills in 
 SIEM operations 
