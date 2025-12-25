@@ -14,3 +14,9 @@ The first step for this project was creating a Resource Group I called RG-1 Insi
 <img width="1905" height="909" alt="image" src="https://github.com/user-attachments/assets/52876011-7dc3-4ebd-8a27-32d3d87c6595" />
 
 
+
+----------------------------------------------------------------------------------------------------------------------------
+After Creation of the Resource Group and the Virtual Machine inside of it. I edited the NSG group assigned to it to allow inbound traffic from any IP and destination port to be allowed onto the VM. This was because were making the VM into a honeypot.
+
+<img width="1912" height="917" alt="image" src="https://github.com/user-attachments/assets/fe7b1feb-957c-415e-bbf1-a4ecd810c023" />
+
