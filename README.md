@@ -26,5 +26,5 @@ After remoting onto the Virtual Machine I turned off all Firewall rules inside o
 <img width="1781" height="1036" alt="image" src="https://github.com/user-attachments/assets/eb840281-7f62-4d4b-a806-25defab13fa7" />
 
 ------------------------------------------------------------------------------------------------------------------------------
-After Confirmting the VM was running I attempted four failed login attempts on it using the username testtrial and checked the event viewer inside of the VM to confirm the failed log in attempted were being logged.
+After Confirmting the VM was running I attempted four failed login attempts on it using the username testtrial and checked the event viewer inside of the VM to confirm the failed log-in attempts were being logged.
 <img width="1870" height="1011" alt="image" src="https://github.com/user-attachments/assets/c2961cee-b921-4f5f-a538-37dedb97afeb" />
