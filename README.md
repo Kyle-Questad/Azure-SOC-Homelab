@@ -24,3 +24,7 @@ After Creation of the Resource Group and the Virtual Machine inside of it. I edi
 After remoting onto the Virtual Machine I turned off all Firewall rules inside of Windows Defender Firewall to allow all traffic to have access to get onto the Virtual Machine. After this I pinged the VM from my local host to make sure I was able to reach it. 
 
 <img width="1781" height="1036" alt="image" src="https://github.com/user-attachments/assets/eb840281-7f62-4d4b-a806-25defab13fa7" />
+
+------------------------------------------------------------------------------------------------------------------------------
+After Confirmting the VM was running I attempted four failed login attempts on it using the username testtrial and checked the event viewer inside of the VM to confirm the failed log in attempted were being logged.
+<img width="1870" height="1011" alt="image" src="https://github.com/user-attachments/assets/c2961cee-b921-4f5f-a538-37dedb97afeb" />
