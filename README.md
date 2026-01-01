@@ -1,6 +1,9 @@
 🏠 Azure HomeLab
 
 The Goal of this lab to to demonstrate my understanding of the cloud environment by deploying different VM in and azure subscription and create an NSG for the Virtual Machine with open inbound rules allowing anyone on the Virtual machine acting as a honeypot.
+Tool I used
+- Network Security Group
+- 
 
 -------------------------------------------------------------------------------------------------------------------------
 The first step for this project was creating a Resource Group I called RG-1 Inside of this resource group I created the following resources. 
@@ -30,4 +33,10 @@ After Confirmting the VM was running I attempted four failed login attempts on i
 <img width="1870" height="1011" alt="image" src="https://github.com/user-attachments/assets/c2961cee-b921-4f5f-a538-37dedb97afeb" />
 
 Problems I ran into:
-- When creating my DCR wizard I wasn't able to make changes inside of it. I didnt have access, I learned this was due to Azure signing me in with a guest account when opening microsoft defender, I resolved this buy setting the signin to with the admin account by default so would would have full access to make any changes I needed to. 
+- When creating a windows security event inside of azure I didnt have permision to creat a data collection rule. This was due to azure signing me in with a default account when launching Windows security events. To bypass this issue I granted the default account contributor access granting it permision to make any change in azure.
+  
+  <img width="1917" height="918" alt="image" src="https://github.com/user-attachments/assets/3acd48c2-0434-4d23-8d86-501ee9031227" />
+
+- I had shut down the VM when creating the data collection rule and this lead to the extension not being applyed to my VM, I had to disassociate the data collection rule via monitor and reassociate it while it was running and the extension was successfully deployed on my VM
+
+<img width="1886" height="915" alt="image" src="https://github.com/user-attachments/assets/42a28f03-3908-401a-8591-4eb1f23fd6cd" />
