@@ -32,6 +32,18 @@ After remoting onto the Virtual Machine I turned off all Firewall rules inside o
 After Confirmting the VM was running I attempted four failed login attempts on it using the username testtrial and checked the event viewer inside of the VM to confirm the failed log-in attempts were being logged.
 <img width="1870" height="1011" alt="image" src="https://github.com/user-attachments/assets/c2961cee-b921-4f5f-a538-37dedb97afeb" />
 
+---------------------------------------------------------------------------------------------------------------------
+I then created a watchlist via sentinal name "geoip" with log information. this watch list contains 55k logs which I will be using as a reference to determine whats happening on my network and use this as a reference to determine my next step going forward.
+
+<img width="1626" height="861" alt="image" src="https://github.com/user-attachments/assets/443cfd5a-63b6-4a7d-80ee-6941315b2c1b" />
+
+
+
+---------------------------------------------------------------------------------------------------------------------
+After creating uploading the Watchlist with the attempted logs into my VM created a query organizing all my log information In the following format. This is organizing all my log informatiton in a simple to read format.
+<img width="1915" height="919" alt="image" src="https://github.com/user-attachments/assets/d21782b9-ea71-4e8c-9d74-0822ca783c76" />
+
+
 Problems I ran into:
 - When creating a windows security event inside of azure I didnt have permision to creat a data collection rule. This was due to azure signing me in with a default account when launching Windows security events. To bypass this issue I granted the default account contributor access granting it permision to make any change in azure.
   
