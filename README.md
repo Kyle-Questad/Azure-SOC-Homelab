@@ -40,7 +40,7 @@ I then created a watchlist via sentinal name "geoip" with log information. this 
 
 
 ---------------------------------------------------------------------------------------------------------------------
-After creating uploading the Watchlist with the attempted logs into my VM created a query organizing all my log information In the following format. This is organizing all my log informatiton in a simple to read format.
+After creating uploading the Watchlist which holds sample data of of different informaiton I generated a KQL query inside of log analytics workspace which organized this data in a column format.
 <img width="1915" height="919" alt="image" src="https://github.com/user-attachments/assets/d21782b9-ea71-4e8c-9d74-0822ca783c76" />
 
 
