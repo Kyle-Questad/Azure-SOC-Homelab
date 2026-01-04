@@ -44,6 +44,12 @@ After creating uploading the Watchlist which holds sample data of of different i
 <img width="1915" height="919" alt="image" src="https://github.com/user-attachments/assets/d21782b9-ea71-4e8c-9d74-0822ca783c76" />
 
 
+--------------------------------------------------------------------------------------------------------------------
+I then created an attack map which shows a map of were all the attempted attacks are being generated from. I did this by used a predefined JSON query in which it pulled all the watchlist data I had uploaded previously and inserted it on the map based the country, longitude, latitude, IP address etc. to located where the attack was coming from.
+
+<img width="1223" height="700" alt="image" src="https://github.com/user-attachments/assets/941a5f48-009d-4568-9ce1-bc38b8f8d2b3" />
+
+
 Problems I ran into:
 - When creating a windows security event inside of azure I didnt have permision to creat a data collection rule. This was due to azure signing me in with a default account when launching Windows security events. To bypass this issue I granted the default account contributor access granting it permision to make any change in azure.
   
