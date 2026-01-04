@@ -1,9 +1,9 @@
 # 🏠 Azure HomeLab
 
 ## The Goal of this lab to to demonstrate my understanding of the cloud environment by deploying different VM in and azure subscription and create an NSG for the Virtual Machine with open inbound rules allowing anyone on the Virtual machine acting as a honeypot.
-Tool I used
-- Network Security Group
-- 
+### Tool I used
+### - Network Security Group
+### - 
 
 -------------------------------------------------------------------------------------------------------------------------
 The first step for this project was creating a Resource Group I called RG-1 Inside of this resource group I created the following resources. 
