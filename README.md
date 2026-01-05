@@ -11,6 +11,7 @@ In this HomeLab I utilized the following resources:
 - Log Analytics Workspace
 - Microsoft Sentinel (SIEM)
 - Sentinel Watchlist
+- KQL Query
 <img width="811" height="744" alt="Azure-HomeLab drawio" src="https://github.com/user-attachments/assets/5fa5409a-31b5-49d8-a037-b2df1875e4e8" />
 
 
